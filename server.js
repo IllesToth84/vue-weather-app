@@ -1,8 +1,10 @@
-const express = require('express')
-const app = express()
+const express = require('express');
+const app = express();
 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
+// Serve all the files in '/dist' directory
+app.use(express.static('dist'));
 
-app.listen(3000)
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
