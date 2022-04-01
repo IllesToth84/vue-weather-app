@@ -137,16 +137,16 @@ body {
 }
 
 #app {
-  background-image: url("./assets/normal-bg.jpg");
+  background-image: url("./assets/bg/normal-bg.jpg");
   background-size: cover;
   background-position: bottom;
   transition: 0.4s;
   .cold {
-    background-image: url("./assets/cold-bg.jpg");
+    background-image: url("./assets/bg/cold-bg.jpg");
     background-position: bottom;
   }
   .warm {
-    background-image: url("./assets/warm-bg.jpg");
+    background-image: url("./assets/bg/warm-bg.jpg");
     background-position: bottom;
   }
 }
@@ -169,17 +169,17 @@ main {
 }
 
 main.clouds {
-  background-image: url("./assets/clouds.png");
+  background-image: url("./assets/weather-effects/clouds.png");
   opacity: 1;
 }
 main.snow {
-  background-image: url("./assets/snow.png");
+  background-image: url("./assets/weather-effects/snow.png");
 }
 main.rain {
-  background-image: url("./assets/rain.png");
+  background-image: url("./assets/weather-effects/rain.png");
 }
 main.haze {
-  background-image: url("./assets/haze.png");
+  background-image: url("./assets/weather-effects/haze.png");
 }
 
 .search-box {
